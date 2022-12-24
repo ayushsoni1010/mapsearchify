@@ -85,9 +85,9 @@ export default defineComponent({
       hits = results.hits;
 
       if (!hits.length) return;
-
+      // console.log(hits.length,3333)
       hits.forEach((hit: any) => {
-        const hitCoords: LngLatLike = [hit._geoloc.lng, hit._geoloc.lat];
+        const hitCoords: LngLatLike = [hit.lng, hit.lat];
 
         const el = document.createElement("div");
         el.classList.add("marker");

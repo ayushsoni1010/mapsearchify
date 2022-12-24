@@ -20,23 +20,17 @@
       <div class="mt-5 flex flex-col space-y-1">
         <div class="flex items-center space-x-2 text-sm">
           <span
-            class="w-6 h-6 flex items-center justify-center text-cyan-dark bg-cyan-light rounded-lg"
+            class="w-6 h-6 flex items-center justify-center text-cyan-700 bg-cyan-100 rounded-lg"
           >
             <StarIcon class="w-3 h-3" />
           </span>
-
-          <span class="font-medium text-cyan-dark">{{ item.city }}</span>
-          <div class="w-0.5 h-0.5 bg-black rounded-full"></div>
-          <span class="ml-2">{{ item.name }}</span>
-
-          <!-- <div>
-            {{ item.reviews_count }} review{{
-              item.reviews_count > 1 ? "s" : ""
-            }}
-          </div> -->
+          <span class="font-medium text-cyan-700">{{ item.city }}</span>
         </div>
 
-        <div class="text-sm text-gray-400">{{ item.skills }}</div>
+        <div class="ml-2">
+          <p>{{ item.name }}</p>
+          <p class="text-sm text-gray-400">{{ item.company }}</p>
+        </div>
       </div>
     </div>
   </button>
@@ -54,12 +48,11 @@ export interface IResultItem {
   city: string;
   email: string;
   designation: string;
+  company: string;
   gender: string;
   image_url: string;
-  skills: string;
-  color: string;
-  date: string;
-  _geoloc: string;
+  lng: string;
+  lat: string;
 }
 
 export default defineComponent({
@@ -85,8 +78,5 @@ export default defineComponent({
 
     return { loaded, onClick };
   },
-  // mounted() {
-  //   console.log(this.$props.item);
-  // },
 });
 </script>
