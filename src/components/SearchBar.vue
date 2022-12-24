@@ -9,7 +9,7 @@
       @submit.prevent
     >
       <input
-        class="w-full h-full pl-32 bg-transparent outline-none text-3xl placeholder-gray-300"
+        class="w-full h-full pl-32 bg-transparent outline-none text-2xl placeholder-gray-300"
         type="search"
         :placeholder="placeholder"
         autocomplete="off"
