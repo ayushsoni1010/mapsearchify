@@ -133,7 +133,7 @@ export default defineComponent({
     onMounted(() => {
       map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/swadon/ckkvdmhh735l418mhd4re0bse',
+        style: 'mapbox://styles/mapbox/streets-v11',
         zoom: 15,
         scrollZoom: true,
       })
