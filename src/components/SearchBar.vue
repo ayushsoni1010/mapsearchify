@@ -31,10 +31,10 @@
       <button
         type="reset"
         title="Reset the search query"
-        class="icon-btn right-0"
+        class="icon-btn right-4"
         @click="query = ''"
       >
-        <CloseIcon v-show="query" class="icon" />
+        <!-- <CloseIcon v-show="query" class="icon" /> -->
       </button>
     </form>
   </div>
