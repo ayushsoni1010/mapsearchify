@@ -182,26 +182,6 @@ export default defineComponent({
   @apply rounded-md;
 }
 
-.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
-  @apply bg-minus-icon;
-}
-
-.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
-  @apply bg-plus-icon;
-}
-
-.mapboxgl-ctrl button.mapboxgl-ctrl-geolocate .mapboxgl-ctrl-icon {
-  @apply bg-location-icon;
-}
-
-.mapboxgl-ctrl button.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon {
-  @apply bg-arrows-expand-icon;
-}
-
-.mapboxgl-ctrl button.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon {
-  @apply bg-arrows-shrink-icon;
-}
-
 .mapboxgl-ctrl-group button + button {
   @apply border-none;
 }
