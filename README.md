@@ -23,7 +23,7 @@ Come, shape the future of MapSearchify, and let's make waves together in the ope
 ## Table of Contents 📜
 
 - [Project Overview](#project-overview-)
-- [Recommended IDE Setup](#️recommended-ide-setup-)
+- [Recommended IDE Setup](https://github.com/ayushsoni1010/mapsearchify#recommended-ide-setup-)
 - [Type Support for `.vue` Imports in TypeScript](#type-support-for-vue-imports-in-typescript-)
 - [Customize Configuration](#customize-configuration-)
 - [Getting started](#getting-started-)
