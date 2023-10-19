@@ -8,7 +8,6 @@ Welcome to MapSearchify, the innovative world mapping platform. We appreciate yo
 - [How Can You Contribute?](#-how-can-you-contribute)
   - [Reporting Bugs](#-reporting-bugs)
   - [Enhancement Proposals](#-enhancement-proposals)
-  - [Documentation](#-documentation)
   - [Code Contribution](#-code-contribution)
 - [Code of Conduct](#-code-of-conduct)
 - [License](#-license)
